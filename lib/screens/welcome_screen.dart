@@ -12,14 +12,28 @@ class WelcomeScreen extends StatefulWidget {
   _WelcomeScreenState createState() => _WelcomeScreenState();
 }
 
-class _WelcomeScreenState extends State<WelcomeScreen> {
+class _WelcomeScreenState extends State<WelcomeScreen> with SingleTickerProviderStateMixin {
+  late AnimationController controller;
+  @override
+  void initState() {
+   controller = AnimationController(
+     duration: Duration(seconds: 1),
+       vsync: this,
+   upperBound: 300
+   );
+    super.initState();
+    controller.forward();
+    controller.addListener((){
+      print(controller.value);
+    });
+  }
   @override
   Widget build(BuildContext context) {
     return Stack(
       children: [
      ProfileBackground(),
         Scaffold(
-          backgroundColor: Colors.transparent,
+          backgroundColor: Colors.blue.withValues(alpha: controller.value),
           body: Padding(
             padding: EdgeInsets.symmetric(horizontal: 24.0),
             child: Column(
@@ -28,9 +42,12 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
               children: <Widget>[
                 Column(
                   children: <Widget>[
-                    SizedBox(
-                      height: 120.0,
-                      child: Image.asset('assets/images/logo.png'),
+                    Hero(
+                      tag:'logo',
+                      child: SizedBox(
+                        height: controller.value,
+                        child: Image.asset('assets/images/logo.png'),
+                      ),
                     ),
                     Text(
                       'A.S.D Chat',

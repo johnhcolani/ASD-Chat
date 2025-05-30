@@ -1,0 +1,134 @@
+{
+  "project_info": {
+    "project_number": "726130596875",
+    "project_id": "absolute-stone-design-app",
+    "storage_bucket": "absolute-stone-design-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726130596875:android:946cdf8be8e5c59c4dfb0e",
+        "android_client_info": {
+          "package_name": "com.JohnColani.asdapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726130596875-mdjp946rdlvdkrlfpa88io0urhtud190.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.JohnColani.asdapp",
+            "certificate_hash": "4f31c1f2ae645ecb670a18d741a68d49b1d5daa2"
+          }
+        },
+        {
+          "client_id": "726130596875-nr6qvbua48l1mbm8cb80sm85mibur2p8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFtETTu8cF4BRqeTqGFSiSCwS6gsBKY6Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "726130596875-nr6qvbua48l1mbm8cb80sm85mibur2p8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "726130596875-6l1f1lc7erdp356isnirb4k0iqaa2b3v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.ios"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726130596875:android:f1a22646d15e740e4dfb0e",
+        "android_client_info": {
+          "package_name": "com.example.absolute_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726130596875-nr6qvbua48l1mbm8cb80sm85mibur2p8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFtETTu8cF4BRqeTqGFSiSCwS6gsBKY6Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "726130596875-nr6qvbua48l1mbm8cb80sm85mibur2p8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "726130596875-6l1f1lc7erdp356isnirb4k0iqaa2b3v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.ios"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726130596875:android:7caba1c27d5732ec4dfb0e",
+        "android_client_info": {
+          "package_name": "com.johncolani.absolute_stone_design_new_update"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726130596875-8gqj5djg0tqp02o2monsirr7j51efmsb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.johncolani.absolute_stone_design_new_update",
+            "certificate_hash": "edf8c23317025743a6e3a7f8a95f8dd7451d0c95"
+          }
+        },
+        {
+          "client_id": "726130596875-nr6qvbua48l1mbm8cb80sm85mibur2p8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFtETTu8cF4BRqeTqGFSiSCwS6gsBKY6Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "726130596875-nr6qvbua48l1mbm8cb80sm85mibur2p8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "726130596875-6l1f1lc7erdp356isnirb4k0iqaa2b3v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.ios"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
