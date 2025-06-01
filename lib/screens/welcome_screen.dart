@@ -1,5 +1,7 @@
+import 'package:absolute_chat/screens/chat_screen.dart';
 import 'package:absolute_chat/screens/login_screen.dart';
 import 'package:absolute_chat/screens/registration_screen.dart';
+import 'package:absolute_chat/service/firbase_service.dart';
 import 'package:absolute_chat/widgets/new_app_background.dart';
 import 'package:absolute_chat/widgets/profile_background.dart';
 import 'package:flutter/material.dart';
@@ -98,6 +100,13 @@ class _WelcomeScreenState extends State<WelcomeScreen> with SingleTickerProvider
                     ),
                   ),
                 ),
+                TextButton(onPressed: (){
+                  FirebaseService.signInAnonymously();
+                  Navigator.pushNamed(context, ChatScreen.id);
+                }, child: Text('Signup Anonymously',style: TextStyle(
+                  fontSize: 16,
+                  color: Colors.blue
+                ),))
               ],
             ),
           ),
